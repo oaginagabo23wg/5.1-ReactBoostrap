@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Estilo general */
+body {
+  background: linear-gradient(to left, #135058, #F1F2B5);
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-img {
+  box-shadow: 10px 5px 5px black;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  color: grey;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background-color: #789e9e;
+  color: white;
+}
+
+/* Custom button */
+.btn-custom {
+  background-color: #2e5a4d;
+  border-color: #2e5a4d;
+}
+
+.btn-custom:hover {
+  background-color: #245d45;
+}
+
+/* Formulario de contacto */
+input[type="text"], textarea {
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  border-radius: 10px;
+}
+
+/* Contact Form */
+.col-lg-6 {
+  padding: 15px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #2e5a4d;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #2e5a4d;
+  padding: 10px;
+}
+
+footer h2 {
+  color: white;
+}
